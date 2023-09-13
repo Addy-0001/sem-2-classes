@@ -1,15 +1,6 @@
 package Week2;
 
 public class Task {
-    // Task 1 - To check if a person can cast vote or not
-    public static void canCastVote(int age) {
-        if (age >= 18) {
-            System.out.println("You can cast your vote.");
-        } else {
-            System.out.println("You cannot cast your vote.");
-        }
-    }
-
     // Task 2 - To calculate Simple Interest
     public static void calculateSI(double principleAmount, double time, double rate) {
         double simpleInterest = (principleAmount * time * rate) / 100;
@@ -34,7 +25,7 @@ public class Task {
         System.out.println("Volume of Cuboid: " + volumeOfCuboid);
     }
 
-    // Task 4 - Ternary operator for Task 1
+    // Task 4 and task 1 - Ternary operator for Task 1
     public static void ternaryOperatorForTask1(int age) {
         String result = (age >= 18) ? "You can cast your vote." : "You cannot cast your vote.";
         System.out.println(result);
@@ -49,7 +40,8 @@ public class Task {
         System.out.println("Product: " + product);
     }
 
-    // Task 6 - To take two integer inputs from the user. First, calculate the sum of
+    // Task 6 - To take two integer inputs from the user. First, calculate the sum
+    // of
     // two, then the product of two. Finally, calculate the division of the thus
     // obtained sum and product and print the result.
     public static void sumProductAndDivisionOfTwoIntegers(int firstNumber, int secondNumber) {
