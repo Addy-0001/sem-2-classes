@@ -1,0 +1,22 @@
+1. Write a Java program to create a class called Vehicle with a method called drive(). Create a subclass called Car with method display() method to print details of the Car.
+
+2. Write a Java program to create a class called Employee with methods called work() and getSalary(). Create a subclass called HRManager that overrides the work() method.
+
+3. Imagine you are building a geometry calculator program. You need to implement the calculation of areas for different shapes, including rectangles, squares, and circles. 
+To achieve this, you decide to use a multilevel inheritance hierarchy.
+
+
+
+4. Design a class hierarchy for different types of vehicles. Create a base class 'Vehicle' with methods 'startEngine()' and 'stopEngine()'. Derive two classes 'Car' and 'Motorcycle' 
+from 'Vehicle'. Add methods 'drive()' in 'Car' and 'ride()' in 'Motorcycle'. Write a Java program to demonstrate hierarchical inheritance and invoke the relevant methods for a car 
+and a motorcycle object.
+
+5. Implement a class hierarchy for various shapes. Create a base class 'Shape' with a method 'calculateArea()'. Derive two classes 'Rectangle' and 'Circle' from 'Shape'. Add 
+additional methods 'calculatePerimeter()' in 'Rectangle' and 'calculateCircumference()' in 'Circle'. Write a Java program to demonstrate hierarchical inheritance and compute 
+the area and perimeter/circumference for a rectangle and a circle object.
+
+6. Let's examine the Java program given. It involves multiple classes that depict different book types, including Book, FictionBook, NonFictionBook, and TechnicalBook. 
+The Book class features a constructor and a method called displayDetails(). This method is responsible for outputting the title and author of a book. The remaining classes
+inherit both the constructor and methods of the Book class as they extend it.
+
+Hint: Use super keywords
