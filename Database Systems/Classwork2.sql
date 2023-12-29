@@ -6,7 +6,7 @@ Create table Book
 (
 	BookID int primary key not null,
 	Title varchar(255),
-	Author varchar(255), 
+	Author varchar(255), BookID
 	PublishedYear int, 
 	Genre varchar(255)
 );
@@ -22,3 +22,8 @@ Create table Members(
 );
 
 desc Members; 
+
+alter table Members modify Email varchar(255) not null; 
+
+ALTER TABLE Members ADD unique(MemberID);
+
