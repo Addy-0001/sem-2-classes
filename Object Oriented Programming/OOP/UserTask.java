@@ -2,6 +2,7 @@ public class UserTask {
     public static void main(String[] args) {
 
         Normal n1 = new Normal();
+        n1.getClass();
     }
 }
 

@@ -2,6 +2,8 @@ public class InheritanceConstructor {
     public static void main(String[] args) {
         Parent p1 = new Parent();
         Child c1 = new Child();
+        c1.getClass();
+        p1.getClass();
     }
 }
 

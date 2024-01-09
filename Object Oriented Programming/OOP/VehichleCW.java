@@ -8,6 +8,7 @@ public class VehichleCW {
         // Taking various inputs from the user
 
         Vehicle[] empty_vehicles = new Vehicle[3];
+        empty_vehicles.getClass();
         String title = "";
         String manufacturer = "";
         double price = 0;
