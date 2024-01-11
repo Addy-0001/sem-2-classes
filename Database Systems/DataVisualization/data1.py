@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 # load the fifa dataset, downloaded from kaggle
@@ -54,4 +55,11 @@ sns.regplot(x='Age', y='Overall', data=fifa, scatter_kws={
 plt.title('Linear Regression, Fifa 19 Dataset')
 plt.xlabel('Age')
 plt.ylabel('Overall Rating')
+plt.show()
+
+
+# Making a heatmap that tracks the overall of the players in the dataset.
+data = (fifa['Overall'],)
+sns.heatmap(data, center=50)
+plt.title("Heatmap on overall and age")
 plt.show()
