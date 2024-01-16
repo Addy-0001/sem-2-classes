@@ -4,6 +4,10 @@ public class Inheritance {
     public static void main(String[] args) {
         Child newChild = new Child(); 
         newChild.getName(); 
+        Child newChild2 = new Child("Adamya", "Neupane");
+        newChild2.getName(); 
+        System.out.println(newChild2.Childstatus);
+        
     }
 }
 
@@ -19,10 +23,23 @@ class Parent {
         this.first_name = first_name;
         this.last_name = last_name;
     }
+
+    Parent(){
+        System.out.println("Default Parent Constructor");
+    }
 }
 
+
 class Child extends Parent {
-    Child (){
-        System.out.println("Child Constructor");
+    boolean Childstatus = true;
+
+    Child(){
+        System.out.println("Default Child Constructor");
     }
+
+    Child(String first_name, String last_name){
+        System.out.println("Child Constructor, Multiple Arguments");
+    }
+
+
 }
