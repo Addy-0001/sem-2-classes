@@ -12,7 +12,7 @@ public class Inheritance {
 }
 
 class Parent {
-    private String first_name;
+    protected String first_name;
     private String last_name;
 
     public String getName() {
@@ -38,7 +38,9 @@ class Child extends Parent {
     }
 
     Child(String first_name, String last_name){
+        this.first_name = first_name; 
         System.out.println("Child Constructor, Multiple Arguments");
+        System.out.println(super.first_name);
     }
 
 
